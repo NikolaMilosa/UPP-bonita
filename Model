@@ -1,0 +1,30 @@
+1. Zahtev za registraciju korinsika
+	- ime, prezime, username, sifra, email, telefon
+	- obrazovanje, propratno pismo (pdf), cv (pdf)
+	- status zahteva (podnet, prihvacen, odbijen, vracen), broj vracanja
+	- broj prihvacenih, 3 - broj prihvacenih where broj_prihvacenih != null
+	
+2. Zahtev za registraciju kompanije
+	- naziv, username, sifra, adresa, PIB, datum osnivanja, email, telefon
+	- status zahteva (podnet, prihvacen, odbijen, dodeljen clanu tima, vracen sefu)
+	- razlog odbijanja
+	- sef se slaze sa clanom tima (null true/false)
+	- datum zahteva, datum rezolucije
+
+3. Usluga odrzavanja registracije kompanije
+	- cena
+
+4. Subskripcija za odrzavanje registracije kompanije
+	- datum uplate
+	- kompanija za koju je vezana subskripcija
+	- usluga odrzavanja
+	
+5. Premium usluga
+	- uslovi
+	- cena
+	
+6. Subskripcija za premium usluge agencije
+	- datum uplate
+	- prihvaceni uslovi
+	- korisnik vezan za uslugu
+	- premium usluga
